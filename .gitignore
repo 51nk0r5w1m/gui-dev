@@ -1,0 +1,18 @@
+# Virtual environment
+venv/
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE / tool dirs
+.kiro/
+.claude/
+.codex/
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
