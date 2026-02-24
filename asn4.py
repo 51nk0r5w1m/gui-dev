@@ -1,3 +1,5 @@
+# C. Fant / Spring 2026 / GUI Development V01 / ASN4
+
 import tkinter as tk
 from PIL import Image, ImageTk
 
@@ -72,7 +74,7 @@ class FoodViewer:
         self.rbdBtn_frame.pack()
 
         # --- Start tkinter main loop ---
-        tk.mainloop()
+        self.root.mainloop()
 
     def on_radio_select(self):
         choice = self.var.get()        # 1=Chicken, 2=Pie, 3=Pizza, 4=Steak
